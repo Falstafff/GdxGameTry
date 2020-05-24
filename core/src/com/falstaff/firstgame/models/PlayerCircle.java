@@ -1,4 +1,4 @@
-package com.falstaff.firstgame;
+package com.falstaff.firstgame.models;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -6,12 +6,12 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 public class PlayerCircle extends Circle {
-    PlayerCircle(float xPosition, float yPosition, float xSpeed, float ySpeed, ShapeRenderer shapeRenderer, Color color, float radius) {
-        super(xPosition, yPosition, xSpeed, ySpeed, shapeRenderer, color, radius);
+    public PlayerCircle(float xPosition, float yPosition, float xSpeed, float ySpeed, Color color, float radius) {
+        super(xPosition, yPosition, xSpeed, ySpeed, color, radius);
     }
 
     @Override
-    void move() {
+    public void move() {
         if (Gdx.input.isKeyPressed(Input.Keys.W)){
             this.setYPosition(this.getYPosition() + 10);
         }
@@ -37,6 +37,4 @@ public class PlayerCircle extends Circle {
             this.setXPosition(Gdx.graphics.getWidth() - this.getXPosition());
         }
     }
-
-
 }

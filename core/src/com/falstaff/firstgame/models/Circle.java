@@ -1,12 +1,11 @@
-package com.falstaff.firstgame;
+package com.falstaff.firstgame.models;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-abstract class Circle {
+public abstract class Circle {
     private float xPosition;
     private float yPosition;
 
@@ -16,33 +15,20 @@ abstract class Circle {
     private Color color;
     private float radius;
 
-    private ShapeRenderer shapeRenderer;
-
-
-    Circle(float xPosition, float yPosition, float xSpeed, float ySpeed, ShapeRenderer shapeRenderer, Color color, float radius) {
+    Circle(float xPosition, float yPosition, float xSpeed, float ySpeed, Color color, float radius) {
         this.xPosition = xPosition;
         this.yPosition = yPosition;
 
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
 
-        this.shapeRenderer = shapeRenderer;
-
         this.color = color;
         this.radius = radius;
     }
 
-
-    void draw() {
-        shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
-        shapeRenderer.setColor(this.color);
-        shapeRenderer.circle(this.xPosition, this.yPosition, radius);
-        shapeRenderer.end();
-    }
-
     abstract void move();
 
-    boolean hasCollision(Circle circle) {
+    public boolean hasCollision(Circle circle) {
         double distance = Math.sqrt((
                 Math.pow((circle.getXPosition() - this.getXPosition()), 2) + Math.pow((circle.getYPosition() - this.getYPosition()), 2)
         ));
@@ -50,40 +36,40 @@ abstract class Circle {
         return distance < (this.radius + circle.radius);
     }
 
-    void refreshPosition() {
+    public void refreshPosition() {
         this.setXPosition(ThreadLocalRandom.current().nextInt(0, Gdx.graphics.getWidth()));
         this.setYPosition(ThreadLocalRandom.current().nextInt(0, Gdx.graphics.getHeight()));
     }
 
-    void setXPosition(float xPosition) {
+    public void setXPosition(float xPosition) {
         this.xPosition = xPosition;
     }
 
-    float getYPosition() {
+    public float getYPosition() {
         return yPosition;
     }
 
-    void setYPosition(float yPosition) {
+    public void setYPosition(float yPosition) {
         this.yPosition = yPosition;
     }
 
-    float getXSpeed() {
+    public float getXSpeed() {
         return xSpeed;
     }
 
-    void setXSpeed(float xSpeed) {
+    public void setXSpeed(float xSpeed) {
         this.xSpeed = xSpeed;
     }
 
-    float getYSpeed() {
+    public float getYSpeed() {
         return ySpeed;
     }
 
-    void setYSpeed(float ySpeed) {
+    public void setYSpeed(float ySpeed) {
         this.ySpeed = ySpeed;
     }
 
-    float getXPosition() {
+    public float getXPosition() {
         return xPosition;
     }
 

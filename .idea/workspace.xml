@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="420158b8-65a8-4e5c-85fa-7d6df6d95135" name="Default Changelist" comment="" />
+    <list default="true" id="420158b8-65a8-4e5c-85fa-7d6df6d95135" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/lib/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/lib/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/screens/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/screens/TitleScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/views/CircleView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/views/TitleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/CircleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/CollectCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/Drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/falstaff/firstgame/PlayerCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/models/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/CircleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/CollectCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/models/CollectCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/Drawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/PlayerCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/falstaff/firstgame/models/PlayerCircle.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +59,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cJZI5tC9QbUDHq1QXcd3eHa5xp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_24" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-23T16:19:46.738Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
   </component>
   <component name="RunDashboard">
@@ -137,5 +178,16 @@
       <updated>1590248573785</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
