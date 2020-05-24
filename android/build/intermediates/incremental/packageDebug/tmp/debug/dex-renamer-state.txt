@@ -1,0 +1,4 @@
+#Sat May 23 19:47:19 EEST 2020
+base.0=/home/oleg/Projects/Android/FirstGame/android/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
